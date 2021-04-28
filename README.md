@@ -14,6 +14,13 @@ compare several genres ratings using boxplots, etc.
 - The user can enter ‘exit’ to exit the entire program and will see ‘Bye!’ appear in their terminal.  
 - The user can use the command ‘help’ to see the command prompt instructions, and the instructions will automatically show up one time when they run the program.  
 
+Python Packages Required:  
+- BeautifulSoup
+- Requests
+- Json
+- Sqlite3
+- plotly.express
+
 These are the instructions they will see:  
 
 Possible commands:
