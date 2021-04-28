@@ -13,23 +13,25 @@ The user can then see the top 25 most popular movies in any of those genres by e
 The user can enter ‘exit’ to exit the entire program and will see ‘Bye!’ appear in their terminal.
 The user can use the command ‘help’ to see the command prompt instructions, and the instructions will automatically show up one time when they run the program.
 These are the instructions they will see:
+
 Possible commands:
+
     '''
-    'list genres':
-        - Presents the list of available genres
-        - A valid genre is how it is presented in this list (all lowercase is fine)
-    'popular <genre number>/<genre name>':
-        - Presents the list of most popular movies in that genre
-        - Example calls: popular 3, popular action
-    'boxplot <genre number>/<genre name>':
-        - Takes only one genre at a time
-        - Presents a boxplot showing distribution of ratings in genre
-    'compare <list of genre numbers/names separated by comma>':
-        - Presents boxplots comparing the ratings of multiple desired genres
-        - Please don't put spaces in genre list
-        - Example calls: compare 4,6,8 or compare action,horror,sci-fi,romance
-    'exit':
-        - Exits the program
-    'help':
-        - Provides list of available commands (these instructions)
-        '''
+    'list genres':  
+        - Presents the list of available genres  
+        - A valid genre is how it is presented in this list (all lowercase is fine)  
+    'popular <genre number>/<genre name>':  
+        - Presents the list of most popular movies in that genre  
+        - Example calls: popular 3, popular action  
+    'boxplot <genre number>/<genre name>':  
+        - Takes only one genre at a time  
+        - Presents a boxplot showing distribution of ratings in genre  
+    'compare <list of genre numbers/names separated by comma>':  
+        - Presents boxplots comparing the ratings of multiple desired genres  
+        - Please don't put spaces in genre list  
+        - Example calls: compare 4,6,8 or compare action,horror,sci-fi,romance  
+    'exit':  
+        - Exits the program  
+    'help':  
+        - Provides list of available commands (these instructions)  
+        '''  
