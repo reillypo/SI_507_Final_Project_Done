@@ -317,7 +317,7 @@ def print_instructions():
         - Presents the list of most popular movies in that genre
         - Example calls: popular 3, popular action
         - Info command will be available after popular command
-    'info':
+    'info <movie number>':
         - This command is available from the popular list, and will show information
         about the selected movie.
     'boxplot <genre number>/<genre name>':
