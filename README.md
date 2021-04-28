@@ -1,18 +1,19 @@
 # SI 507 Final Project
 
-Reilly Potter
+By: Reilly Potter
 
 ## Project Instructions: 
-My project allows the user to scrape the IMDb site to view the most popular movies in each genre, create a boxplot of those popular movies' ratings,
-compare several genres ratings, etc.
+My project allows the user to scrape the IMDb site to view the most popular movies in each genre, get information about the popular movies, create a boxplot of those popular movies' ratings,
+compare several genres ratings using boxplots, etc.
 
-The user is able to select one of the genres (there are 23 genres) and see the distribution of ratings within that genre’s popular movies via boxplots. 
-In addition, they can also compare the ratings of multiple genres via boxplots. I will be using Plotly to create the boxplots, and command-line prompts to accept the users’ inputs.
-The user is also able to list all genres using the ‘list’ command, and the program will list all of the genres along with a number. 
-The user can then see the top 25 most popular movies in any of those genres by either typing ‘popular <genre number from list>’ or ‘popular <genre>’ (ex: popular action).
-The user can enter ‘exit’ to exit the entire program and will see ‘Bye!’ appear in their terminal.
-The user can use the command ‘help’ to see the command prompt instructions, and the instructions will automatically show up one time when they run the program.
-These are the instructions they will see:
+- The user is able to select one of the genres (there are 23 genres) and see the distribution of ratings within that genre’s popular movies via boxplots.  
+- In addition, they can also compare the ratings of multiple genres via boxplots. I will be using Plotly to create the boxplots, and command-line prompts to accept the users’ inputs.  
+- The user is also able to list all genres using the ‘list’ command, and the program will list all of the genres along with a number.  
+- The user can then see the top 25 most popular movies in any of those genres by either typing ‘popular <genre number from list>’ or ‘popular <genre>’ (ex: popular action).  
+- The user can also get information about the movies on the popular list by using the 'info <movie number>' command. It will give them the title and description for that movie.  
+- The user can enter ‘exit’ to exit the entire program and will see ‘Bye!’ appear in their terminal.  
+- The user can use the command ‘help’ to see the command prompt instructions, and the instructions will automatically show up one time when they run the program.  
+- These are the instructions they will see:  
 
 Possible commands:
 
