@@ -13,6 +13,7 @@ compare several genres ratings using boxplots, etc.
 - The user can also get information about the movies on the popular list by using the 'info <movie number>' command. It will give them the title and description for that movie.  
 - The user can enter ‘exit’ to exit the entire program and will see ‘Bye!’ appear in their terminal.  
 - The user can use the command ‘help’ to see the command prompt instructions, and the instructions will automatically show up one time when they run the program.  
+
 These are the instructions they will see:  
 
 Possible commands:
